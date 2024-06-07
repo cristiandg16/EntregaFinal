@@ -28,8 +28,8 @@ caso de que un valor sobrepase un límite configurado en el código.
 Consultar la posición en tiempo real de cada colectivo de la ciudad de Buenos Aires y almacenarlo en una tabla de hechos en el DW de Redshift.
 
 # Información de la API
-► API Doc: https://api-transporte.buenosaires.gob.ar/console
-► API Console: https://apitransporte.buenosaires.gob.ar/console/
+- API Doc: https://api-transporte.buenosaires.gob.ar/console
+- API Console: https://apitransporte.buenosaires.gob.ar/console/
 
 # Proceso
 
@@ -50,5 +50,8 @@ Username: admin
 Password: admin
 
 # Montar el contenedor
-. Reconstruir la imagen de docker con el siguiente comando: docker build -t my_airflow_image .
-. Ejecutar el contenedor con el siguiente comando: docker run -p 8080:8080 -d my_airflow_image
+1. Reconstruir la imagen de docker con el siguiente comando: docker build -t my_airflow_image .
+2. Ejecutar el contenedor con el siguiente comando: docker run -p 8080:8080 -d my_airflow_image
+
+# Tablas DW
+En la carpeta **scripts_tables** ubicaremos los DDL de las tablas que se cargan durante el proceso.
