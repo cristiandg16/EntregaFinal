@@ -46,8 +46,8 @@ El dag consta de las siguientes tareas que estan ordenadas segun ejecución:
 # Airflow
 
 Utilizamos la versión 2.3.3 . 
-Username: admin
-Password: admin
+- **Username**: admin
+- **Password**: admin
 
 # Montar el contenedor
 1. Reconstruir la imagen de docker con el siguiente comando: docker build -t my_airflow_image .
